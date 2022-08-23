@@ -1,7 +1,6 @@
 {
   "name": "reactexpress",
   "version": "1.0.0",
-  "description": "Boliertplate for",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -22,6 +21,10 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
-  }
+    "@lnu/eslint-config": "^1.1.5"
+  },
+  "eslintConfig": {
+    "extends": "@lnu"
+  },
+  "description": ""
 }
